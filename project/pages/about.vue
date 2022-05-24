@@ -1,7 +1,7 @@
 <template>
     <div>
         <Header />
-        <h2 class = "title">List of blog</h2>
+        <h2 class = "title">List of Blogs</h2>
     </div>
 </template>
 
