@@ -1,11 +1,10 @@
 
 <template>
-<header>
+	<header>
         <h1 class= "title">Food Blog</h1>
-    
-        <NuxtLink to="/">HomePage</NuxtLink>
-        <NuxtLink to="/about">BlogList</NuxtLink>
-</header>
+    	<NuxtLink to="/">HomePage</NuxtLink>
+		<NuxtLink to="/about">BlogList</NuxtLink>
+	</header>
 </template>
 	
 

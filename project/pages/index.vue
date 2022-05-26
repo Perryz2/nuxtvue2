@@ -8,25 +8,23 @@
 
 <script>
 export default {
-    name: "Index page",
+  name: "IndexPage",
     data() {
         return {
-            blogs: [],
+          blogs: [],
         }
     },
     head() {
         return {
-            title: 'Blog',
-            meta: [
-                {
-                    hid: 'description',
-                    name: 'description',
-                    Content: 'My blogpost',
-                },
-            ],
+          title: 'Blog',
+          meta: [
+            {
+              hid: 'description',
+              name: 'description',
+              Content: 'My blogpost',
+            },
+          ],
         }
-        
-
     },
     async fetch(){
         this.blogs = await this.$content('blogs').fetch()
