@@ -7,9 +7,31 @@
 </template>
 
 <script>
-  export default {
+export default {
+    name: "Index page",
+    data() {
+        return {
+            blogs: [],
+        }
+    },
+    head() {
+        return {
+            title: 'Blog',
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    Content: 'My blogpost',
+                },
+            ],
+        }
+        
 
-  }
+    },
+    async fetch(){
+        this.blogs = await this.$content('blogs').fetch()
+    },
+}
 
 </script>
 

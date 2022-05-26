@@ -10,7 +10,7 @@ export default {
     name: "Index page",
     data() {
         return {
-            posts: [],
+            blogs: [],
         }
     },
     head() {
@@ -20,7 +20,7 @@ export default {
                 {
                     hid: 'description',
                     name: 'description',
-                    Content: 'My blogpost 1',
+                    Content: 'My blogpost',
                 },
             ],
         }
@@ -28,8 +28,8 @@ export default {
 
     },
     async fetch(){
-        this.posts = await this.$content('blogs')
-    }
+        this.blogs = await this.$content('blogs').fetch()
+    },
 }
 </script>
 
