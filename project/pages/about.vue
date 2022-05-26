@@ -2,11 +2,20 @@
     <div>
         <Header />
         <h2 class = "title">List of Blogs</h2>
+        <Preview 
+        v-for="blogs in content" 
+        :key="blogs" 
+        :title="blogs.title"
+        :desc="blogs.description"
+        :author="blogs.author"/>
+        <Preview/>
     </div>
 </template>
 
 <script>
+import preview from '../components/preview.vue'
 export default {
+  components: { preview },
   name: "AboutPage",
     data() {
         return {
