@@ -11,7 +11,7 @@
 <style scoped>
 
 header {
-	padding: 20px 40px;
+	padding: 15px 30px;
 	background-color: #FFF;
 	display: flex;
 	justify-content: space-between;
@@ -22,7 +22,7 @@ header {
 }
 .title {
 	color: #212121;
-	font-size: 30px;
+	font-size: rem;
 	font-weight: 900;
 	text-transform: uppercase;
 }

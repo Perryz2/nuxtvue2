@@ -35,11 +35,14 @@ export default {
 
 <style scoped>
 .title {
-    font-size: 30px;
+    font-size: 7rem;
     text-align: center;
     margin-top: 5rem;
     flex-wrap: 30px;
 };
+.h2 {
+  background-image: url('../assets/resources/bg.jpg');
+}
 </style>
 
 

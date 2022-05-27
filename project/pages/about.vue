@@ -2,36 +2,24 @@
     <div>
         <Header />
         <h2 class = "title">List of Blogs</h2>
-        <Preview 
-        v-for="blogs in content" 
-        :key="blogs" 
-        :title="blogs.title"
-        :desc="blogs.description"
-        :author="blogs.author"/>
-        <Preview/>
+        <Preview
+        v-for="blog of blogs" 
+        :key="blog.title" 
+        :title="blog.title"
+        :desc="blog.description"
+        :img="blog.img"
+        :author="blog.author"
+        >
+        </Preview>       
     </div>
 </template>
 
 <script>
-import preview from '../components/preview.vue'
 export default {
-  components: { preview },
   name: "AboutPage",
     data() {
         return {
           blogs: [],
-        }
-    },
-    head() {
-        return {
-          title: 'Blog',
-          meta: [
-            {
-              hid: 'description',
-              name: 'description',
-              Content: 'My blogpost',
-            },
-          ],
         }
     },
     async fetch(){
@@ -43,7 +31,7 @@ export default {
 <style scoped>
 
 .title {
-    font-size: 30px;
+    font-size: 3rem;
     text-align: center;
     margin-top: 5rem;
 };
