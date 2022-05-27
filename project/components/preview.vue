@@ -1,13 +1,14 @@
 <template>
 	<div class="Card">
 		<div class= "Postview">
-			<h2 class="title">{{title}}</h2>
+			<div class="post-container">	<h2 class="title">{{title}}</h2>
 			<h2>{{author}}</h2>
 			<h2>{{description}}</h2>
-			<nuxt-link :to="{name:'slug', params:{slug:slug} }">Click me</nuxt-link>
-		<div class="image">
-			<img :src= img />
-		</div>
+			<nuxt-link :to="{name:'slug', params:{slug:slug} }">Click me</nuxt-link></div>
+		
+		
+			<img  class="image" :src= img />
+		
 		</div>
 	</div>
 </template>
@@ -44,6 +45,7 @@
   padding-right: 15px;
   font-size: 30px;
   margin-bottom: 30px;
+  display: flex;
 }
 .title {
   color: #212121;
@@ -56,9 +58,10 @@
   font-size: 18px;
   text-decoration: none;
 }
-image{
+.image img{
   max-height: 100%;
   max-width: 100%;
+  margin: 0 auto;
 }
 
 </style>

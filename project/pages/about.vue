@@ -6,9 +6,10 @@
         v-for="blog of blogs" 
         :key="blog.title" 
         :title="blog.title"
-        :desc="blog.description"
+        :description="blog.description"
         :img="blog.img"
         :author="blog.author"
+        :slug="blog.slug"
         >
         </Preview>     
     </div>
