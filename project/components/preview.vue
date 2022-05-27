@@ -3,7 +3,7 @@
 		<div class= "Postview">
 			<h2 class="title">{{title}}</h2>
 			<h2>{{author}}</h2>
-			<p>{{description}}</p>
+			<h2>{{description}}</h2>
 			<nuxt-link :to="{name:'slug', params:{slug:slug} }">Click me</nuxt-link>
 		<div class="image">
 			<img :src= img />

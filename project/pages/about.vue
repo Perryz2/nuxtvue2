@@ -10,8 +10,9 @@
         :img="blog.img"
         :author="blog.author"
         >
-        </Preview>       
+        </Preview>     
     </div>
+    
 </template>
 
 <script>
@@ -35,4 +36,5 @@ export default {
     text-align: center;
     margin-top: 5rem;
 };
+
 </style>

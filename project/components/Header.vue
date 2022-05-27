@@ -24,6 +24,7 @@ header {
 	color: #212121;
 	font-size: rem;
 	font-weight: 900;
+	align-items: center;
 	text-transform: uppercase;
 }
 
