@@ -43,13 +43,17 @@
   border-radius: 8px;
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 30px;
+  font-size: 5rem;
   margin-bottom: 30px;
   display: flex;
+  text-decoration: none;
+}
+.Post-container{
+	margin-right: 20rem;
 }
 .title {
   color: #212121;
-  font-size: 24px;
+  font-size: 5rem;
   text-decoration: none;
   margin-bottom: 30px;
 }
@@ -59,9 +63,15 @@
   text-decoration: none;
 }
 .image img{
-  max-height: 100%;
-  max-width: 100%;
-  margin: 0 auto;
+  display: block;
+  width: 80%;
+  max-width: 50px;
+  margin-left: 50rem;
+  padding: 15px;
+  background: #FFF;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
 }
 
 </style>

@@ -3,3 +3,8 @@
 <Nuxt/>
   </div>
 </template>
+
+
+<style>
+
+</style>

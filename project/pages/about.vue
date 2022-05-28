@@ -12,7 +12,7 @@
         :slug="blog.slug"
         >
         </Preview>     
-    </div>
+		    </div>
     
 </template>
 
@@ -37,5 +37,9 @@ export default {
     text-align: center;
     margin-top: 5rem;
 };
+
+.picture2{
+    font-size: 40rem;
+}
 
 </style>

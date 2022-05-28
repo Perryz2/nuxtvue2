@@ -7,3 +7,29 @@ body,
   font-size: 62.5%;
 }
 
+@media (max-width: 768px)   {
+  .Blog-post {
+      width: 40%;
+      border: 1rem solid aqua;
+      text-align: center;
+  }
+
+  .header {
+      width: 40%;
+      border: aqua;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .Blog-post {
+      width: 80%;
+      border: 1rem solid blue;
+      text-align: center;
+  }
+
+  .header {
+      width: 80%;
+      border: aqua;
+  }
+}

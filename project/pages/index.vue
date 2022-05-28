@@ -40,9 +40,7 @@ export default {
     margin-top: 5rem;
     flex-wrap: 30px;
 };
-.div {
-    background-image: url('../assets/resources/bg.jpg');
-}
+
 </style>
 
 
