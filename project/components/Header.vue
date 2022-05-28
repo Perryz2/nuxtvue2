@@ -22,7 +22,7 @@ header {
 }
 .title {
 	color: #212121;
-	font-size: rem;
+	font-size: 28px;
 	font-weight: 900;
 	align-items: center;
 	text-transform: uppercase;
