@@ -33,11 +33,10 @@
 
 <style>
 .Card {
-  margin: 0 auto;
+  margin: auto;
   max-width: 800px;
 }
 .Postview {
-  padding: 15px;
   background: #FFF;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -56,22 +55,20 @@
   font-size: 5rem;
   text-decoration: none;
   margin-bottom: 30px;
+  padding: 20px;
 }
 .p {
   color: #888;
   font-size: 18px;
   text-decoration: none;
 }
-.image img{
-  display: block;
-  width: 80%;
-  max-width: 50px;
-  margin-left: 50rem;
-  padding: 15px;
-  background: #FFF;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  display: flex;
+.image{
+  text-align: center;
+  height: 25rem;
+  margin-left: 20rem;
+  padding: center;
+  size: 50px;
+
 }
 
 </style>
